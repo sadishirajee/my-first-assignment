@@ -23,3 +23,31 @@
 .header-bg{
     background-image: url(assets/Hero-bg.png);
 }
+section {
+    padding: 50px 60px 50px 60px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.pr-card{
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 235, 235);
+    padding: 20px;
+    margin: 10px;
+}
+.card-w{
+    text-align: left;
+    padding: 20px;
+}
+.img-c{
+    width: 274px;
+    height: 240px;
+}

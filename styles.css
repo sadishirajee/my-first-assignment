@@ -78,3 +78,11 @@ section {
     margin: 5px;
     background-color: rgb(250, 238, 187);
 }
+.next-t{
+    display: flex;
+    justify-content: space-between;
+}
+
+.support{
+    background-image: url(assets/handshake.jpg);
+}

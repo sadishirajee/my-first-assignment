@@ -1,0 +1,25 @@
+.main-mark {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.main-mark h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main-mark p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.main-mark button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+.header-bg{
+    background-image: url(assets/Hero-bg.png);
+}

@@ -1,10 +1,42 @@
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px 20px 50px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.nav-btn{
+    font-weight: bold;
+    border-radius: 8px;
+    border-color: black;
+    padding: 17px 24px 17px 24px;
+}
 .main-mark {
     padding: 50px 20px;
     text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .main-mark h2 {
-    font-size: 32px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
@@ -19,6 +51,7 @@
     background-color: #333;
     color: #fff;
     border-radius: 5px;
+    font-weight: bold;
 }
 .header-bg{
     background-image: url(assets/Hero-bg.png);
@@ -42,14 +75,37 @@ section {
     background-color: rgb(241, 235, 235);
     padding: 20px;
     margin: 10px;
+    border-radius: 5px;
 }
 .card-w{
     text-align: left;
-    padding: 20px;
+    padding-right: 30%;
+    padding-top: 5%;
+}
+.card-w p {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.card-w h3{
+    text-align: left;
+    margin-bottom: 20px;
 }
 .img-c{
     width: 274px;
     height: 240px;
+}
+.insp-h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.insp-p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.mtarget{
+    padding: 10%;
 }
 .target{
     display: flex;
@@ -61,6 +117,7 @@ section {
     padding: 3%;
     margin: 5px;
     background-color: peachpuff;
+    border-radius: 5%;
 }
 .targets2{
     width: 364px;
@@ -69,6 +126,7 @@ section {
     padding: 3%;
     margin: 5px;
     background-color: rgb(201, 233, 243);
+    border-radius: 5%;
 }
 .targets3{
     width: 364px;
@@ -77,12 +135,50 @@ section {
     padding: 3%;
     margin: 5px;
     background-color: rgb(250, 238, 187);
-}
-.next-t{
-    display: flex;
-    justify-content: space-between;
+    border-radius: 5%;
 }
 
 .support{
     background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 15%;
+    width: 900px;
+    height: 220px;
+    padding: 50px 20px;
+    box-sizing: content-box;
+}
+.support-content {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.support h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.support p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.support form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.support button {
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
 }
